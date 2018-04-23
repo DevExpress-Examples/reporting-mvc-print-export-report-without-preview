@@ -1,0 +1,55 @@
+﻿@{
+    Layout = null;
+}
+@model T569785.Models.ExportModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script type="text/javascript">
+        function Print() {
+            window.open('@Url.Action("Print", "Home")', "PrintingFrame");
+        }    
+    </script>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm("Export", "Home")) {
+            <table style="text-align: center">
+                <tr>
+                    <td style="width: 150px">
+                        Printing
+                    </td>
+                    <td style="width: 150px" colspan="2">
+                        Exporting
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="Print" onclick="Print(); return false;" />
+                        <iframe name="PrintingFrame" style="position:absolute; left: -10000px; top: -10000px;"></iframe>
+                    </td>
+                    <td>
+                        @Html.DropDownListFor(m => m.Format, new SelectListItem[] { 
+                            new SelectListItem() { Value = "pdf", Text= "Pdf" },
+                            new SelectListItem() { Value = "docx", Text= "Docx" },
+                            new SelectListItem() { Value = "xls", Text= "Xls" },
+                            new SelectListItem() { Value = "xlsx", Text= "Xlsx" },
+                            new SelectListItem() { Value = "rtf", Text= "Rtf" },
+                            new SelectListItem() { Value = "mht", Text= "Mht" },
+                            new SelectListItem() { Value = "html", Text= "Html" },
+                            new SelectListItem() { Value = "txt", Text= "Text" },
+                            new SelectListItem() { Value = "csv", Text= "Csv" },
+                            new SelectListItem() { Value = "png", Text= "Image" }
+                        })
+                    </td>
+                    <td>
+                        <input type="submit" value="Export" />
+                    </td>
+                </tr>
+            </table>
+        }
+    </div>
+</body>
+</html>
