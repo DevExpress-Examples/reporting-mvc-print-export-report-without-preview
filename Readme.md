@@ -10,7 +10,7 @@
 <!-- default file list end -->
 # How to print/export XtraReport in an ASP.NET MVC application without showing a report preview
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t569785)**
+**[[Run Online]](https://codecentral.devexpress.com/t569785/)**
 <!-- run online end -->
 
 
