@@ -14,7 +14,7 @@ This example demonstrates how to print or export a report in an ASP.NET MVC appl
 Follow the steps below to print a report:
 
 * Export the report to PDF.
-* Return the exported PDF file as an action result with the **Content-Disposition** header set to the "inline" value.
+* Return the exported PDF file as an action result with the **Content-Disposition** header set to *inline*.
 * The returned PDF is opened by the browser's built-in PDF viewer. To avoid this, export the PDF to a separate iframe - only the print dialog is displayed.
 
 <!-- default file list -->
