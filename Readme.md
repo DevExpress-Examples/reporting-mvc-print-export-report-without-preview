@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# Reporting for ASP.NET MVC - How to print/export a report without showing a preview
+# Reporting for ASP.NET MVC - How to print or export a report without showing a preview
 
 This example demonstrates how to print or export a report in an ASP.NET MVC application without displaying this report's preview. Follow the steps below to complete this task:
 
