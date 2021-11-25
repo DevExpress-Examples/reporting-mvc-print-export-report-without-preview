@@ -29,7 +29,7 @@ Follow the steps below to print a report:
 <!-- default file list end -->
 
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t569785/)**
+**[[Run Online]](https://codecentral.devexpress.com/128596574/)**
 <!-- run online end -->
 
 ## See also
