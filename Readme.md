@@ -35,5 +35,5 @@ Follow the steps below to print a report:
 
 * [E454: How to print a report without displaying it in a web application](https://www.devexpress.com/Support/Center/p/E454).
 * [How to print/export XtraReport in an ASP.NET WebForms application without showing a report preview](https://www.devexpress.com/Support/Center/p/T227361).
-* [How to print and export DevExpress reports without previewing them on a web page in an ASP.NET Core Angular application](https://github.com/DevExpress-Examples/Reporting-Angular-Print-Without-Preview).
+* [How to print and export DevExpress reports without previewing them on a web page in an ASP.NET Core Angular application](https://github.com/DevExpress-Examples/Reporting-Angular-Print-Without-Preview)
 
