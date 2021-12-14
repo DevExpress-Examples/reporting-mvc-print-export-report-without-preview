@@ -6,7 +6,11 @@
 
 # Reporting for ASP.NET MVC - How to print or export a report without showing a preview
 
-This example demonstrates how to print or export a report in an ASP.NET MVC application without displaying this report's preview. Follow the steps below to complete this task:
+This example demonstrates how to print or export a report in an ASP.NET MVC application without displaying this report's preview.
+
+![Report Print Dialog](./Images/report-print-dialog.png)
+
+Follow the steps below to print or export a report:
 
 * Call one of the report's **ExportTo...** methods to obtain an exported document.
 * Call the [Controller.File](https://msdn.microsoft.com/en-us/library/system.web.mvc.controller.file(v=vs.118).aspx) method to convert the exported document into a FileContentResult object.
@@ -28,13 +32,9 @@ Follow the steps below to print a report:
 * [Index.cshtml](./CS/T569785/Views/Home/Index.cshtml)
 <!-- default file list end -->
 
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128596574/)**
-<!-- run online end -->
+## More Examples
 
-## See also
-
-* [E454: How to print a report without displaying it in a web application](https://www.devexpress.com/Support/Center/p/E454)
-* [How to print/export XtraReport in an ASP.NET WebForms application without showing a report preview](https://www.devexpress.com/Support/Center/p/T227361)
+* [E454: How to print a report without displaying it in a web application](https://supportcenter.devexpress.com/ticket/details/e454/how-to-print-a-report-without-displaying-it-in-a-web-application)
+* [How to print/export XtraReport in an ASP.NET WebForms application without showing a report preview](https://supportcenter.devexpress.com/ticket/details/t227361/how-to-print-export-xtrareport-in-an-asp-net-webforms-application-without-showing-a)
 * [How to print and export DevExpress reports without previewing them on a web page in an ASP.NET Core Angular application](https://github.com/DevExpress-Examples/Reporting-Angular-Print-Without-Preview)
 
