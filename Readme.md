@@ -9,7 +9,7 @@
 This example demonstrates how to print or export a report in an ASP.NET MVC application without displaying this report's preview. Follow the steps below to complete this task:
 
 * Call one of the report's **ExportTo...** methods to obtain an exported document.
-* Call the [Controller.File](https://msdn.microsoft.com/en-us/library/system.web.mvc.controller.file(v=vs.118).aspx) method to convert the exported document into a FileContentResult object.
+* Call the [Controller.File](https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.controller.file?view=aspnet-mvc-5.2) method to convert the exported document into a FileContentResult object.
 
 Follow the steps below to print a report:
 
