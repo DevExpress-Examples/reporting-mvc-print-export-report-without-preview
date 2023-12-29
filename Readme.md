@@ -27,9 +27,6 @@ Follow the steps below to print a report:
 * [Index.cshtml](./CS/T569785/Views/Home/Index.cshtml)
 <!-- default file list end -->
 
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128596574/)**
-<!-- run online end -->
 
 ## See also
 
