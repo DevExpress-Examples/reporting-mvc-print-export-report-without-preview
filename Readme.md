@@ -13,7 +13,7 @@ This example demonstrates how to print or export a report in an ASP.NET MVC appl
 Follow the steps below to print or export a report:
 
 * Call one of the report's **ExportTo...** methods to obtain an exported document.
-* Call the [Controller.File](https://msdn.microsoft.com/en-us/library/system.web.mvc.controller.file(v=vs.118).aspx) method to convert the exported document into a FileContentResult object.
+* Call the [Controller.File](https://learn.microsoft.com/en-us/dotnet/api/system.web.mvc.controller.file) method to convert the exported document into a FileContentResult object.
 
 Follow the steps below to print a report:
 
