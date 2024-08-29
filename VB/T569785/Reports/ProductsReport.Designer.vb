@@ -138,7 +138,7 @@
             Me.GroupHeaderTitle.Borders = (CType((((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) Or DevExpress.XtraPrinting.BorderSide.Right) Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide))
             Me.GroupHeaderTitle.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() { Me.tbProductHeader})
             Me.GroupHeaderTitle.Dpi = 100F
-            Me.GroupHeaderTitle.Font = New System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold)
+            Me.GroupHeaderTitle.Font = New DevExpress.Drawing.DXFont("Times New Roman", 9.75F, DevExpress.Drawing.DXFontStyle.Bold)
             Me.GroupHeaderTitle.GroupUnion = DevExpress.XtraReports.UI.GroupUnion.WithFirstDetail
             Me.GroupHeaderTitle.HeightF = 25F
             Me.GroupHeaderTitle.Name = "GroupHeaderTitle"
@@ -245,7 +245,7 @@
             ' lbHeader
             ' 
             Me.lbHeader.Dpi = 100F
-            Me.lbHeader.Font = New System.Drawing.Font("Times New Roman", 36F)
+            Me.lbHeader.Font = New DevExpress.Drawing.DXFont("Times New Roman", 36F)
             Me.lbHeader.LocationFloat = New DevExpress.Utils.PointFloat(0F, 10F)
             Me.lbHeader.Name = "lbHeader"
             Me.lbHeader.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F)

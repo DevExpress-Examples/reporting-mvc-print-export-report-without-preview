@@ -150,7 +150,7 @@
             this.GroupHeaderTitle.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.tbProductHeader});
             this.GroupHeaderTitle.Dpi = 100F;
-            this.GroupHeaderTitle.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold);
+            this.GroupHeaderTitle.Font = new DevExpress.Drawing.DXFont("Times New Roman", 9.75F, DevExpress.Drawing.DXFontStyle.Bold);
             this.GroupHeaderTitle.GroupUnion = DevExpress.XtraReports.UI.GroupUnion.WithFirstDetail;
             this.GroupHeaderTitle.HeightF = 25F;
             this.GroupHeaderTitle.Name = "GroupHeaderTitle";
@@ -264,7 +264,7 @@
             // lbHeader
             // 
             this.lbHeader.Dpi = 100F;
-            this.lbHeader.Font = new System.Drawing.Font("Times New Roman", 36F);
+            this.lbHeader.Font = new DevExpress.Drawing.DXFont("Times New Roman", 36F);
             this.lbHeader.LocationFloat = new DevExpress.Utils.PointFloat(0F, 10F);
             this.lbHeader.Name = "lbHeader";
             this.lbHeader.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
